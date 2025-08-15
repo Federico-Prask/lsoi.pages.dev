@@ -17,7 +17,8 @@
         <pre><code>console.log('Hello World!')</code></pre>
       </div>
     </div> -->
-    <h1>Welcome to the LSOI Blogs</h1>
+    <h1>欢迎使用 LSOI 博客</h1>
+    <h2>Welcome to the LSOI Blogs</h2>
     <time>2025-08-15</time>
     <div class="content">
       <p>本网站由&nbsp;Github&nbsp;@<a href = "https://github.com/Federico-Prask">Federico-Prask</a>&nbsp;维护，

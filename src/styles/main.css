@@ -73,3 +73,25 @@ header {
   stroke-width: 4;     /* 线条粗细 */
   color: var(--vp-c-brand); /* 使用品牌色 */
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* 统一盒模型 */
+  margin: 0; /* 重置默认边距 */
+}
+
+.user-card + .user-card {
+  margin-top: 0; /* 确保网格间距生效 */
+}
+
+@media (max-width: 600px) {
+  .user-grid {
+    grid-auto-rows: auto; /* 小屏幕使用自动行高 */
+  }
+  
+  .user-card {
+    min-height: auto; /* 小屏幕取消最小高度 */
+    height: auto;
+  }
+}

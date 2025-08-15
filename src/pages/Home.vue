@@ -6,7 +6,7 @@
       
       <div class="action-buttons">
         <router-link to="/blog" class="action-button">探索博客</router-link>
-        <router-link to="/daily" class="action-button secondary">查看日报</router-link>
+        <router-link to="/daily" class="action-button secondary">查看周报</router-link>
       </div>
     </div>
     
@@ -32,7 +32,7 @@ import { BookOpen, CalendarDays, Code2, Users } from 'lucide-vue-next'
 const features = [
   {
     icon: BookOpen,
-    title: "技术博客",
+    title: "个人博客",
     desc: "成员原创技术文章",
     path: "/blog"
   },
@@ -44,8 +44,8 @@ const features = [
   },
   {
     icon: CalendarDays,
-    title: "活动日报",
-    desc: "每日学习记录",
+    title: "活动周报",
+    desc: "每周学习记录",
     path: "/daily"
   },
   {
@@ -157,7 +157,7 @@ h1 {
   background: white;
   border: 1px solid var(--vp-c-divider);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  padding: 2rem;
+  padding: 1.3rem;
   border-radius: 12px;
   transition: all 0.3s ease;
   color: var(--vp-c-text-1);
@@ -168,6 +168,12 @@ h1 {
   background: var(--vp-c-bg-soft);
   border-color: var(--vp-c-divider);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08);
+  padding: 1.3rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  color: var(--vp-c-text-1);
 }
 
 /* 悬停效果增强 */
@@ -182,11 +188,17 @@ h1 {
 
 /* 图标颜色强化 */
 .card-icon {
+  width: 2.9rem;
+  height: 2.9rem;
   color: var(--vp-c-brand);
   background: rgba(100, 108, 255, 0.1);
-  padding: 0.8rem;
-  border-radius: 50%;
-  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 90%;
+  /* margin-bottom: 15rem; */
+  margin: 0 auto 1.3rem;
+  opacity: 1 !important;
+  stroke-width: 1.3;
+  transition: all 0.3s ease;
 }
 
 .feature-cards {

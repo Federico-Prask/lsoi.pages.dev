@@ -34,6 +34,11 @@ defineProps({
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+.dark .post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
 .card-content h2 {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;

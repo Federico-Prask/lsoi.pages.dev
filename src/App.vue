@@ -5,7 +5,7 @@
       <router-link to="/blog">博客</router-link>
       <router-link to="/daily">周报</router-link>
       <router-link to="/solutions">题解</router-link> <!-- 新增 -->
-      <router-link to="/profile">关于</router-link>
+      <router-link to="/users">关于</router-link>
       <ThemeToggle />
     </nav>
   </header>

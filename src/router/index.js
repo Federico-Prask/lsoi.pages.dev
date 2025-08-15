@@ -41,13 +41,19 @@ const routes = [
       title: '题解 | LSOI Pages' // 自定义标题
     }
   },
+  // 用户列表页
   {
-    path: '/profile',
+    path: '/users',
+    name: 'Users',
+    component: () => import('@/pages/Users.vue')
+  },
+  
+  // 用户详情页（带ID）
+  {
+    path: '/profile/:id',
     name: 'Profile',
-    component: () => import('../pages/Profile.vue'),
-    meta: { 
-      title: '关于 | LSOI Pages' // 自定义标题
-    }
+    component: () => import('@/pages/Profile.vue'),
+    props: true
   }
 ]
 
