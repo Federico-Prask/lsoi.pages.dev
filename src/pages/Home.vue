@@ -1,8 +1,8 @@
 <template>
   <div class="home-hero">
     <div class="hero-content">
-      <h1>信息组<span class="highlight">知识库</span></h1>
-      <p class="subtitle">技术沉淀 | 经验分享 | 学习资源</p>
+      <h1>麓山国际<span class="highlight">信息组</span></h1>
+      <p class="subtitle">算法思路 | 经验分享 | 学习资源</p>
       
       <div class="action-buttons">
         <router-link to="/blog" class="action-button">探索博客</router-link>
@@ -58,6 +58,38 @@ const features = [
 </script>
 
 <style scoped>
+.action-button {
+  text-decoration: none !important; /* 移除下划线 */
+  display: inline-block; /* 保持按钮布局 */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* 主按钮样式 */
+.action-button {
+  background: var(--vp-c-brand);
+  color: white;
+}
+
+/* 次要按钮样式 */
+.action-button.secondary {
+  background: transparent;
+  border: 1px solid var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+
+/* 悬停效果 */
+.action-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.action-button:active {
+  transform: translateY(0);
+}
+
 .card {
   cursor: pointer;
   text-decoration: none;

@@ -20,6 +20,14 @@ const routes = [
     }
   },
   {
+    path: '/blog/:slug',
+    name: 'BlogPost',
+    component: () => import('../pages/BlogPost.vue'),
+    meta: { 
+      title: '博客详情 | LSOI Pages' // 自定义标题
+    }
+  },
+  {
     path: '/daily',
     name: 'Daily',
     component: () => import('../pages/Daily.vue'),
