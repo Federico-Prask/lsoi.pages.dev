@@ -3,7 +3,7 @@
     <nav>
       <router-link to="/">主页</router-link>
       <router-link to="/blog">博客</router-link>
-      <router-link to="/daily">日报</router-link>
+      <router-link to="/daily">周报</router-link>
       <router-link to="/solutions">题解</router-link> <!-- 新增 -->
       <router-link to="/profile">关于</router-link>
       <ThemeToggle />

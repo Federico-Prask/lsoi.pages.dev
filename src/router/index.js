@@ -30,7 +30,7 @@ const routes = [
     name: 'Daily',
     component: () => import('../pages/Daily.vue'),
     meta: { 
-      title: '日报 | LSOI Pages' // 自定义标题
+      title: '周报 | LSOI Pages' // 自定义标题
     }
   },
   {

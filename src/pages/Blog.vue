@@ -1,6 +1,6 @@
 <template>
   <div class="blog-page">
-    <h1 class="page-title">技术博客</h1>
+    <h1 class="page-title">组内博客</h1>
     <div class="post-grid">
       <PostCard
         v-for="post in posts"
@@ -21,17 +21,17 @@ import PostCard from '../components/PostCard.vue'
 
 const posts = ref([
   {
-    id: 'welcome',
-    title: '欢迎来到信息组博客',
-    excerpt: '这是我们的第一篇技术博客',
-    date: '2023-10-20'
-  },
-  {
-    id: 'vue-tips',
-    title: 'Vue 开发技巧',
-    excerpt: '分享实用的 Vue 开发技巧',
-    date: '2023-10-25'
+    id: 'Welcome',
+    title: '对于本网站的介绍',
+    excerpt: '关于本网站的使用，请阅读本文。',
+    date: '2025-08-15'
   }
+  // {
+  //   id: 'VueTips',
+  //   title: 'Vue 开发技巧',
+  //   excerpt: '分享实用的 Vue 开发技巧',
+  //   date: '2023-10-25'
+  // }
 ])
 </script>
 
