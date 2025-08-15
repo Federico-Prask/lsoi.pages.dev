@@ -72,6 +72,16 @@
       <p>
         最后，祝大家学习愉快！
       </p>
+      <p>
+        <br>
+        <br>
+        <br>
+        本网站使用 Vue 3 + Vite + Tailwind CSS 开发，部署于 CloudFlare Pages。
+        <br>
+        源码同步于&nbsp;<a href = "https://github.com/Federico-Prask/lsoi.pages.dev">Github</a>。
+        <br>
+        本网站遵守&nbsp;<a href = "https://www.gnu.org/licenses/gpl-3.0.html">GNU-GPL&nbsp;v3.0&nbsp;开源协议</a>，可在本网站中<a href = "./GNU-GPLv3.0">阅读</a>。使用或复制代码中的部分内容请标明来源，并遵守开源协议。
+      </p>
     </div>
   </div>
 </template>
