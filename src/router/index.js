@@ -20,12 +20,10 @@ const routes = [
     }
   },
   {
-    path: '/blog/:slug',
+    path: '/blog/:id',
     name: 'BlogPost',
-    component: () => import('../pages/BlogPost.vue'),
-    meta: { 
-      title: '博客详情 | LSOI Pages' // 自定义标题
-    }
+    component: () => import('@/pages/BlogPost.vue'),
+    props: true // 传递路由参数作为props
   },
   {
     path: '/daily',

@@ -30,6 +30,22 @@ body {
   min-height: 100vh;
 }
 
+pre {
+  position: relative;
+}
+.copy-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  background: var(--vp-c-brand);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
